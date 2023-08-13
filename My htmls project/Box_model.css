@@ -1,0 +1,19 @@
+
+div{
+  width: 300px;
+  height: 300px;
+  border:3px solid red;
+  padding: 100px 150px 100px 150px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 150px;
+  margin-bottom: 150px;
+
+}
+img{
+  width:200px;
+  height:200px;
+  border:3px solid brown;
+  padding:100px 200px 100px 200px;
+  margin:100px 200px 100px 200px;
+}

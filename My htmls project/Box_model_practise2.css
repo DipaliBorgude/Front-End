@@ -1,0 +1,57 @@
+.sky{
+  width:700px;
+  height:350px;
+  background-color:#1f184e;
+}
+body{
+  margin-top:100px;
+  margin-left:200px;
+}
+.moon{
+  width:40px;
+  height:40px;
+  background-color:#b8b1e7;
+  margin-top:-300px;
+  margin-left:450px;
+  border-radius:20px 20px 20px 20px;
+  box-shadow:4px 4px 2px #dcd8f3;
+}
+.mountain1{
+  width:500px;
+  height:200px;
+  background-color:#001a00;
+  margin-top:100px;
+  border-radius:0 200% 0 0;
+}
+.mountain2{
+  width:400px;
+  height:200px;
+  background-color:#001a00;
+  margin-left:300px;
+  margin-top:-200px;
+  border-radius:200% 0 0 0;
+}
+.house1{
+  width:90px;
+  height:95px;
+  background-color:white;
+  margin-top:-250px;
+  margin-left:50px;
+}
+.house2{
+  width:90px;
+  height:55px;
+  background-color:#999900;
+  margin-top:-150px;
+  margin-left:50px;
+  border-radius:90px 90px 0 0;
+}
+.door{
+  width:60px;
+  height:35px;
+  background-color:#996600;
+  margin-left:59px;
+  transform:rotate(90deg);
+  margin-top:48px;
+
+}

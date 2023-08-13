@@ -1,0 +1,22 @@
+h1{
+  background-color:blue;
+  display:inline-block;
+  width:200px;
+  height:200px;
+
+}
+h4{
+  background-color:yellow;
+  display:none;
+}
+p{
+  background-color:green;
+  display:inline;
+}
+span{
+  background-color:brown;
+  display:block;
+  width:100px;
+  height:100px;
+
+}

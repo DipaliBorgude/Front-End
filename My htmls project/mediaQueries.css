@@ -1,0 +1,42 @@
+@media screen and (max-width:1000px)
+{
+.container{
+  width:800px;
+  border:solid 3px red;
+  margin:auto;
+  padding:10px;
+}
+h1{
+  text-align:center;
+  color:blue;
+
+}
+.Box{
+ width:200px;
+ height:200px;
+ background-color:red;
+ display:inline-block;
+ margin:10px;
+}
+}
+@media screen and (min-width:700px) and (max-width:900px)
+{
+.container{
+  width:690px;
+  border:solid 3px red;
+  margin:auto;
+  padding:10px;
+}
+h1{
+  text-align:center;
+  color:blue;
+
+}
+.Box{
+ width:200px;
+ height:200px;
+ background-color:yellow;
+ display:inline-block;
+ margin:10px;
+}
+}

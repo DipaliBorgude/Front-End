@@ -1,0 +1,12 @@
+h1{
+  font-family:"Arial";
+  text-align:center;
+  font-size:40px;
+}
+p{
+  font-family:"Calibri";
+  font-size:1.5em;
+  font-style:italic;
+  line-height:2;
+  display:inline;
+}

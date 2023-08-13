@@ -1,0 +1,16 @@
+.container{
+  border:2px blue solid;
+  padding:10px;
+  display:grid;
+  /* grid-template-columns:100px 200px 300px;
+  grid-template-rows:50px 150px 200px; */
+  grid-template:150px 150px 150px/repeat(4,1fr);
+  grid-gap:10px;
+}
+.Box{
+  background-color:orange;
+  border:1px black solid;
+}
+.box8{
+  order:5;
+}

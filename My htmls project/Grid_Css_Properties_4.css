@@ -1,0 +1,18 @@
+.Container{
+  border:1px solid blue;
+  padding:10px;
+  display:grid;
+  grid-template:100px 200px 100px / repeat(3,1fr);
+  grid-gap:10px;
+  place-items:center end;
+}
+
+.Box{
+  background-color:pink;
+  border:1px solid black;
+
+}
+
+.box1{
+  place-self:start center;
+}

@@ -1,0 +1,17 @@
+h1{
+  Background:Brown;
+  Border:Pink 5px solid;
+}
+Body{
+Background:url(http://thewowstyle.com/wp-content/uploads/2015/01/nature-images.jpg);
+Background-repeat:no-repeat;
+Background-size:cover;
+}
+h3{
+  color:Yellow;
+  Background:Brown;
+  Border:3px dashed pink;
+}
+li{
+  color:Pink;
+}

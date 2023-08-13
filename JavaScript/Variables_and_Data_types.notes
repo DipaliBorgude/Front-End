@@ -1,0 +1,122 @@
+
+
+//*Variables*//
+Its a name of storege container in which we store data.
+
+For example:  var name='Dipali';    ...//  Here 'name' is stoage space of a variables which name as 'Name',it contain 'Dipali' name in it.//
+              console.log(name);
+			  
+			  var companyName='Crisil';      .......   Here we used CamelCase condition means the name of variables storage if its conatin more than single word "the first letter of next word is Capital" so we can read it easily.
+			  console.log(companyName);
+			  
+			  var _isHeWorking='true';    
+			  console.log(_isHeWorking);
+			  
+			  
+Rule for Naming Variable:
+             
+			Variables name can start with "_" or "$" sign,but not with other symbols. //ForExample var @name="Dipali";   ...it creates error.//
+			
+			we can not used keyword of javascript as a name of variables.  // ForExample   var fucntion="Dipali";  ......it creates error.//
+			
+			Be specific and obivious while picking up the name for variable,bcoz later its easy to undertand.
+			
+			
+			
+Basics JavaScripts Data Types:
+      
+	    1.Strings:It is used for Text,which is shown between 'Quatation..' marks.
+		2.Numbers:It is used for shown Integers,Decimal numbers and Percenatages.
+		3.Boolean:It is used for condition like true or False.
+		4.undefined:Data types of variables that does not contain value yet.
+		5.Null:Nonexistant.
+		
+JavaScript identify by itself Data type,also if we want to two diff data type it also can be done in Javascript which is known as "Type Coration".
+        ForExample:var name='Dipali';
+		           console.log(name);
+				   
+				   var employeeID='100199';
+				   console.log(employeeID);
+				   
+				   console.log(name + ' ' + employeeID);          this type of Data is known as Type coercion....
+				   
+				   
+Operators:
+        Operators are basically functions that writtens in javascripts in a special way.
+		1)Basic Operators
+		2)Type corcion Operator
+		3)Logical Operator
+		
+A.  Basic Operator:   X=10;
+   1)    >                Greater than                   X>20                  False
+   2)    >=              Greater than or equal to        X>=10                 True	
+   3)	 <                Less than                      X<5                   False
+   4)    <=              Less than or equal to           X<=10                 True
+   5)    ==               Equal to                       X=='10'               True
+   6)    !=               Not equal                      X!=5                  True
+   7)	 ===             Equal to both                   X==='10'              False
+   8)	 !==              Not equal                      X!=='10'              True
+   
+B.  Type Coercion Operator:  X=20;
+   1)    ==         Equal to(make type coercian)         X=='20'               True
+   2)    !=         Not equal(make type coercion)        X!=20                 True
+   3)    ===        Equal to(not making type coercion)   X===20                True
+   4)    !==        Not equal to
+                       (not making type coercion)        X!=='20'              True
+					   
+C.  Logical Operator:
+    X=10 and Y=8;
+	
+   1)     &&          AND          (X>7) && (X==='10')        both side need to be true            False
+   2)     ||          OR           (X>Y> || (Y<5)             only one side need to be true        True
+   3)     !           NOT           ! (Y!=='8')               it opposite the answered             False
+		
+		
+		
+CONDITIONAL STATEMENT:
+    3 important word need to be remember:if , else if , else.
+	
+TERNARY OPERATOR:
+    It also called as conditional operator but in simple way.its not usefull for complex decision,its usefull for simple decision like yes or no,fail or pass.
+	
+	////////        var result = grade >40 ? 'Pass' : 'Fail';          //////////////
+	                console.log(result);
+	
+	we can written program by this in one line.
+	
+SWITCH STATEMENT:
+    Its make if else program easy by switch case program.
+	
+LOOPS(Repeatative situation):
+     1.Purpose of using Loops:
+	     if we want to make situation in which thinks our continuosly repeatating itself,thier we can use loops.
+		 
+	 2.Concept of using DRY code:
+	   DRY:(Do not Repeat Yourself)it use when we doesnt want code to be repeat itself after such a point.
+	   
+   a)WHILE LOOPS:
+      -  while loops repeat the code itself,as soon as condition come true,it is very similar to if case,just diff is that it continuosly itself till condition comes true.
+	  -	in such loops if condition at point doesnt make false it will create infinite loops and it will crash the server.
+	  so it is need to provide false condition at some point,so it can break the code and stop the result,so it doesnt make any infinite loops.
+	  
+   b)FOR LOOPS:
+   
+     for(intial; condition; step)  {
+	      if the condition becomes true;the code run here;
+		 }
+		 
+   c)CONTINUE AND BREAK STATEMENT:
+     
+	 Continue Statement means it will continue till we reach to desire output.
+	 
+	 Break Statement:It will break the condition after getting desire output.
+     
+ FUNCTION:
+    Functions are reusable bits of code.
+	
+   a)Function DECLARATION :in this we need to first declared the function and then call it.
+   b)Function with ARGUMENT : in this it take information of customer as a argument to the function,by this we can make coustomized page.
+   c)Function RETURN keyword:Console.log only print the value coming from funtion to the console,but return keyword print it as well as save it.
+   d)Function DECLARATION and EXPRESSION: This both are diff and we are using as per purpose.
+   
+  Function Scope:In JS only function create scope,not if / for block.

@@ -1,0 +1,53 @@
+.flex_container{
+  border:3px solid blue;
+   display:flex;
+   flex-direction:row;
+}
+
+
+/* .Box1{
+  width:100px;
+  height:100px;
+  background-color:orange;
+
+  /* order:3; */
+   /* flex-grow:1;
+   flex-shrink:1; */
+/* } */
+
+/* .Box2{
+  width:100px;
+  height:100px;
+  background-color:yellow;
+  /* order:1; */
+/* } */
+
+/* .Box3{
+  width:100px;
+  height:100px;
+  background-color:black;
+  flex-basis:25%;
+  /* order:2; */
+   /* flex-grow:2;
+} */
+
+
+
+.Box1{
+  Background-color:orange;
+  margin:10px;
+  flex-basis:100%;
+}
+
+.Box2{
+  Background-color:yellow;
+  margin:10px;
+  flex-basis:40%;
+}
+
+.Box3{
+  Background-color:pink;
+  margin:10px;
+  /* flex-basis:10%; */
+  flex:0 1 auto;
+}

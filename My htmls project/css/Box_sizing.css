@@ -1,0 +1,36 @@
+.box1{
+  width:150px;
+  height:150px;
+  border:3px solid black;
+  padding:10px;
+  Box-sizing:content-box;
+}
+
+/* Content-box:this box add border and padding value with width and height value. */
+/* box1-we want size of 150px*150px but atlast we got square by adding value of border and padding. */
+ /* box1-150= 150+3+10 : 163  */
+
+ .box2{
+   width:150px;
+   height:150px;
+   border:3px solid red;
+   padding:10px;
+   Box-sizing:border-box;
+
+ }
+
+
+ /* Border-box: this feature make our box size as per our requirement by adding border and padding. */
+
+ /* total box2-(150*150)=150-3-10=124*/
+ /* so total width and height is 124*124. */
+
+
+*{
+  box-sizing:border-box;
+}
+
+html{
+  box-sizing:inherit;
+}
+/* above two tags are for universal use. */

@@ -1,0 +1,24 @@
+*//JAVASCRIPT//*
+
+==>JavaScript is a light weight,cross platfrom,object oriented computer programming language.
+
+1)Light-Weight means easy and simple syntax.it doesnt need lot much memory.
+2)Cross-Platfrom means it used on multiple platfroms and system not jst for web development.Smartwatch app,Games,Web servers,Presentation etc
+3)Object-oriented meand its depends on the object.
+
+Traditional it is a client side language so it only used on broswer environment,But due to node JS we can used on server side to.
+
+(Populat JS libraries):
+a)React
+b)Angular
+c)JQueary
+
+==>HTML,CSS and Javascript are together work to create a beautiful and meaningful web developmet.
+
+Role of HTML,CSS and Javascript in this are 
+
+HTML:   It is responsible for all content(e.g. img,button,div...) that we saw on development page.
+
+CSS:    It is resposible for the styling,presentation and placement of the contenet prepared with HTML to the desired location on the screen.
+
+JAVASCRIPT: it is reponsible for the interaction the user and the web site.It's capable for adding real programming capabilities to the web pages and developments.

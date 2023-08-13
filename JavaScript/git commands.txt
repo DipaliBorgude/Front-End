@@ -1,0 +1,21 @@
+Git Commands 
+
+
+1) git clone https://github.com/DipaliBorgude/Front-End.git
+    -> clone repository
+    -> default main branch
+2) git status
+    -> know current status
+3) git checkout -b FrontEndBasics
+    -> to checkout that perticular branch
+4) git add <fileNames> / .
+    -> git add .
+    -> after add , changes will be staged 
+5) git commit -m "enter your msg"
+    -> to commit added changes 
+    -> will be pushed to your local repository
+6) git pull 
+    -> to pull changes from git repo 
+    -> only usefull if parallely other developers are working and pushing there codes 
+7) 
+
